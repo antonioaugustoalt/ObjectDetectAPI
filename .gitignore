@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+dataset/images/val2017/
+dataset/images/*.zip
+dataset/annotations/annotations_trainval2017.zip
+
+models/*.pt
+
+.env
+*.pt
+dataset/
