@@ -1,0 +1,11 @@
+imagem,total_deteccoes,classes,confianca_media
+000000021167.jpg,2,person,0.8516
+000000518326.jpg,1,person,0.8673
+000000013774.jpg,1,person,0.8123
+000000377635.jpg,2,person,0.6635
+000000511647.jpg,1,person,0.7349
+000000158744.jpg,3,"car, person",0.6943
+000000317024.jpg,0,Nenhuma,0
+000000574297.jpg,1,person,0.8615
+000000091654.jpg,0,Nenhuma,0
+000000403565.jpg,2,"bicycle, person",0.8774
