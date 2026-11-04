@@ -156,4 +156,6 @@ Como consequência, podem ocorrer falsos positivos e classificações incorretas
 
 Quadro de acompanhamento do desenvolvimento:
 
+[ObjectDetect API – Desenvolvimento](https://trello.com/b/ixYOfpvs)
+
 
