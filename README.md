@@ -146,6 +146,38 @@ Testes realizados:
 
 **Resultado:** 3 testes aprovados.
 
+## 8.1 Avaliação experimental do modelo
+
+Foi realizada uma avaliação experimental do YOLO11n utilizando 10 imagens selecionadas aleatoriamente do conjunto de validação COCO 2017.
+
+As predições foram comparadas com as anotações reais do dataset, considerando:
+
+- Confiança mínima: 0,25.
+- IoU mínimo: 0,50.
+- Correspondência da classe e da bounding box.
+
+### Resultados
+
+| Métrica | Resultado |
+|---|---:|
+| Imagens avaliadas | 10 |
+| Verdadeiros positivos (TP) | 13 |
+| Falsos positivos (FP) | 0 |
+| Falsos negativos (FN) | 9 |
+| Precisão | 100% |
+| Recall | 59,09% |
+| F1-score | 74,29% |
+
+### Análise
+
+Na amostra avaliada, o modelo apresentou precisão de 100%, sem falsos positivos, mas deixou de identificar alguns objetos presentes nas imagens, resultando em recall de 59,09%.
+
+Os resultados demonstram que o modelo consegue identificar objetos das classes selecionadas, mas ainda apresenta limitações na detecção de todos os elementos presentes nas imagens.
+
+**Observação:** trata-se de uma avaliação experimental limitada a 10 imagens, não de um benchmark oficial do COCO ou de uma avaliação representativa de todas as 15 classes.
+
+Os scripts utilizados foram `tests/validate_dataset.py` e `tests/evaluate_coco_sample.py`, com os resultados da primeira validação registrados em `tests/validation_results.csv`.
+
 ## 9. Limitações
 
 O projeto utiliza um modelo pré-treinado, sem fine-tuning específico para as imagens de validação.
