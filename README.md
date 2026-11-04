@@ -1,4 +1,4 @@
-# ObjectDetect API
+# API detecção de objetos
 
 API de detecção de objetos em imagens utilizando **YOLO11n**, **FastAPI** e o dataset **COCO 2017**.
 
