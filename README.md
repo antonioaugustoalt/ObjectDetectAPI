@@ -190,4 +190,6 @@ Quadro de acompanhamento do desenvolvimento:
 
 [ObjectDetect API – Desenvolvimento](https://trello.com/b/ixYOfpvs)
 
+## 11. Vídeo de apresentação do projeto
 
+[Apresentacao Projeto Final Visao Computacional](https://youtu.be/X--jKHoYDSA)
